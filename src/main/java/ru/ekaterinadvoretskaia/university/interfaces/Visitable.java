@@ -1,6 +1,6 @@
 package ru.ekaterinadvoretskaia.university.interfaces;
 
-public interface Visit {
+public interface Visitable {
     void comeToUniversity();
 
     void lunch();

@@ -1,21 +1,24 @@
 package ru.ekaterinadvoretskaia.university.entity;
 
-import ru.ekaterinadvoretskaia.university.interfaces.Teach;
-import ru.ekaterinadvoretskaia.university.interfaces.Visit;
+import ru.ekaterinadvoretskaia.university.interfaces.Teachable;
+import ru.ekaterinadvoretskaia.university.interfaces.Visitable;
 
-public class Professor implements Teach, Visit {
+public class Professor implements Teachable, Visitable {
     @Override
     public void teach() {
+        System.out.println("professor teaches");
 
     }
 
     @Override
     public void comeToUniversity() {
+        System.out.println("professor comes to the University");
 
     }
 
     @Override
     public void lunch() {
+
 
     }
 

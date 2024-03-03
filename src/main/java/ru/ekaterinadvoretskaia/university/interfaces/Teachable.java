@@ -1,6 +1,6 @@
 package ru.ekaterinadvoretskaia.university.interfaces;
 
-public interface Teach {
+public interface Teachable {
     void teach();
 
 }

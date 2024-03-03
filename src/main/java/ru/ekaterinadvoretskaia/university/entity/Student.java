@@ -1,9 +1,9 @@
 package ru.ekaterinadvoretskaia.university.entity;
 
-import ru.ekaterinadvoretskaia.university.interfaces.Study;
-import ru.ekaterinadvoretskaia.university.interfaces.Visit;
+import ru.ekaterinadvoretskaia.university.interfaces.Studable;
+import ru.ekaterinadvoretskaia.university.interfaces.Visitable;
 
-public class Student implements Study, Visit {
+public class Student implements Studable, Visitable {
 
     @Override
     public void study() {
