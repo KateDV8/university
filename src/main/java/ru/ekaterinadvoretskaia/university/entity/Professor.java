@@ -18,12 +18,12 @@ public class Professor implements Teachable, Visitable {
 
     @Override
     public void lunch() {
-
+        System.out.println("professor is having lunch");
 
     }
 
     @Override
     public void leaveUniversity() {
-
+        System.out.println("professor leaves university");
     }
 }
